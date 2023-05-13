@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src" // ~ tương đương ứng với src
+        }
+      }
+    ]
+  ]
+}
+// import App from "~/App"
