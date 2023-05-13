@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"] // Tham chiếu tương ứng
+    }
+  }
+}
+// Không tự động load .bablerc nên  => đọc doc tạo file config.json
